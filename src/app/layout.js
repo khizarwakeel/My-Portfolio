@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} bg-gradient-to-r from-[#7810e9] via-[#7911ea] to-[#7810e9]`}
       >
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-[82rem] mx-auto">
           <Menu />
           {children}
         </div>

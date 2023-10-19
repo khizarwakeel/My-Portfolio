@@ -1,6 +1,6 @@
 const Menu = () => {
   return (
-    <div className="pt-6">
+    <div className="pt-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"

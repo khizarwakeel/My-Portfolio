@@ -5,7 +5,7 @@ import Menu from "@/components/menusection/menu";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Stixor",
+  title: "Stixor Technologies",
   description: "Developed by Khizar Wakeel",
 };
 

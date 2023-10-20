@@ -1,0 +1,93 @@
+const data = [
+  {
+    imgSrc: "assets/img1.webp",
+    contHead: "CSD",
+    content: ` CSD has transformed from a Convenience Store to a Shopping Complex
+               with 110+ modern outlets, offering diverse shopping facilities.
+               Proudly serving underserved areas. CSD also has a Public Website
+              and various E-Commerce apps`,
+    skill1: "assets/next-js.png",
+    skill2: "assets/react.png",
+    skill3: "assets/Typescript.png",
+    skill4: "assets/tailwind.png",
+  },
+  {
+    imgSrc: "assets/img2.webp",
+    contHead: "EQ & YOU",
+    content: `The EI App, built with Flutter, is a mobile tool for emotional intelligence training.
+     It boasts features like progress tracking, activity monitoring, and content from expert Brent
+      Darnell. Users can enhance emotional intelligence and stay motivated.`,
+    skill1: "assets/next-js.png",
+    skill2: "assets/react.png",
+    skill3: "assets/Typescript.png",
+    skill4: "assets/tailwind.png",
+  },
+  {
+    imgSrc: "assets/img3.webp",
+    contHead: "Isekai Verse",
+    content: `Isekaiverse is a cross-chain web3 project built primarily for EVM-based blockchains.
+     The project, among other things, includes multiple NFT marketplaces, Lootboxes with off-chain
+      randomness through Oracles.`,
+    skill1: "assets/next-js.png",
+    skill2: "assets/react.png",
+    skill3: "assets/Typescript.png",
+    skill4: "assets/tailwind.png",
+  },
+  {
+    imgSrc: "assets/img4.webp",
+    contHead: "Nk Associates",
+    content: `Stixor created a website and app for NK Associates, a real estate firm.
+     They showcase properties with virtual tours and detailed 
+    listings on this dynamic platform. We are very humble to over client they loving and beautiful`,
+    skill1: "assets/next-js.png",
+    skill2: "assets/react.png",
+    skill3: "assets/Typescript.png",
+    skill4: "assets/tailwind.png",
+  },
+];
+const Ourwork = () => {
+  return (
+    <>
+      <div className="max-w-[65rem] mx-auto pt-14 py-8">
+        <div className="text-white text-center">
+          <h1 className="pb-5 text-5xl font-bold">Our Work</h1>
+          <p className="pb-5 text-2xl font-thin">
+            How well we is determined not by how well we say things, but how
+            well we are understood.
+          </p>
+        </div>
+        {data.map((data, id) => (
+          <div className="grid grid-cols-3 pb-10" key={id}>
+            <div className="col-span-2">
+              <img src={data.imgSrc} alt="img1" className="rounded-l-3xl" />
+            </div>
+            <div className="bg-[#010e42] rounded-r-3xl text-white px-6">
+              <h3 className="pt-10 text-3xl font-bold pb-3">{data.contHead}</h3>
+              <p className="text-xl font-extralight">{data.content}</p>
+              <div className="flex gap-8 pt-5">
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] w-16 h-14 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill1} alt="next.js" className="w-[80%]" />
+                </div>
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] w-16 h-14 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill2} alt="next.js" className="w-[80%]" />
+                </div>
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] w-16 h-14 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill3} alt="next.js" className="w-[80%]" />
+                </div>
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] w-16 h-14 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill4} alt="next.js" className="w-[80%]" />
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+        <div className="text-center">
+          <button className="bg-white w-96 transition duration-700 ease-in-out  hover:bg-[#880af2]  border-white border hover:text-white p-2 rounded-3xl">
+            View More
+          </button>
+        </div>
+      </div>
+    </>
+  );
+};
+export default Ourwork;

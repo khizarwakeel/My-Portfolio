@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-const sidebar = () => {
+const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
@@ -61,4 +61,4 @@ const sidebar = () => {
   );
 };
 
-export default sidebar;
+export default Sidebar;

@@ -82,7 +82,7 @@ const Ourwork = () => {
           </div>
         ))}
         <div className="text-center">
-          <button className="bg-white w-96 transition duration-700 ease-in-out  hover:bg-[#880af2]  border-white border hover:text-white p-2 rounded-3xl">
+          <button className="bg-white w-96 transition duration-700 ease-in-out  hover:bg-[#4e1daa]  border-white border hover:text-white p-2 rounded-3xl">
             View More
           </button>
         </div>

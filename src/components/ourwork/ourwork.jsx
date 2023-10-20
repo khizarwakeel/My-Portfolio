@@ -59,9 +59,9 @@ const Ourwork = () => {
         {data.map((data, id) => (
           <div className="grid grid-cols-3 pb-10" key={id}>
             <div className="col-span-2">
-              <img src={data.imgSrc} alt="img1" className="rounded-l-3xl" />
+              <img src={data.imgSrc} alt="img1" className="rounded-l-3xl shadow-lg" />
             </div>
-            <div className="bg-[#010e42] rounded-r-3xl text-white px-6">
+            <div className="bg-[#010e42] rounded-r-3xl text-white px-6 shadow-lg">
               <h3 className="pt-10 text-3xl font-bold pb-3">{data.contHead}</h3>
               <p className="text-xl font-extralight">{data.content}</p>
               <div className="flex gap-8 pt-5">

@@ -32,7 +32,7 @@ const Sidebar = () => {
             isOpen
               ? "translate-x-0"
               : "translate-x-full ease-in-out duration-300"
-          }  fixed bg-gradient-to-r from-[#9a10e2] via-[#8b11d6] shadow-2xl to-[#9a10e2] w-[25vw] h-full pl-6 pt-5`}
+          }  fixed bg-gradient-to-r from-[#9a10e2] via-[#8b11d6] shadow-2xl to-[#9a10e2] z-40 w-[100vw] lg:w-[25vw] h-full pl-6 pt-5`}
         >
           <button
             onClick={() => {

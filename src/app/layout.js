@@ -17,14 +17,12 @@ export default function RootLayout({ children }) {
         className={`${inter.className} bg-gradient-to-r from-[#7810e9] via-[#4e1daa] to-[#7810e9]`}
       >
         <div className="max-w-[82rem] mx-auto">
-          <div className="fixed">
+          <div className="fixed pl-5 lg:pl-0">
             <Sidebar />
           </div>
           {children}
         </div>
-        <div>
-        <Footer />
-        </div>
+        {/* <Footer /> */}
       </body>
     </html>
   );

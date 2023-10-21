@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -32,7 +31,7 @@ const Sidebar = () => {
             isOpen
               ? "translate-x-0"
               : "translate-x-full ease-in-out duration-300"
-          }  fixed bg-gradient-to-r from-[#9a10e2] via-[#8b11d6] shadow-2xl to-[#9a10e2] z-40 w-[100vw] lg:w-[25vw] h-full pl-6 pt-5`}
+          }  fixed bg-gradient-to-r from-[#5d109e] via-[#741ac1] shadow-2xl to-[#5d109e] z-40 w-[100vw] md:w-[45vw] lg:w-[32vw] xl:w-[25vw] h-full pt-5`}
         >
           <button
             onClick={() => {
@@ -45,7 +44,7 @@ const Sidebar = () => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-8 h-8 text-white hover:text-fuchsia-400 cursor-pointer"
+              className="w-8 h-8 text-white hover:text-fuchsia-400 cursor-pointer ml-3"
             >
               <path
                 stroke-linecap="round"
@@ -54,7 +53,24 @@ const Sidebar = () => {
               />
             </svg>
           </button>
-          <h1 className="text-white pt-10 text-3xl">Stixor Technologies</h1>
+          <div className="w-72 mx-auto">
+            <div className="pt-10 uppercase text-xl font-medium">
+              <ul>
+                <li className="border-b-4 cursor-pointer text-white border-[#9217ca] w-72 pb-2 mb-8">
+                  Home
+                </li>
+                <li className="border-b-4 cursor-pointer text-gray-400 hover:text-white transition duration-700 ease-in-out  border-[#9217ca] w-72 pb-2 mb-8">
+                  About Me
+                </li>
+                <li className="border-b-4 cursor-pointer text-gray-400 hover:text-white transition duration-700 ease-in-out  border-[#9217ca] w-72 pb-2 mb-8">
+                  My Projects
+                </li>
+                <li className="border-b-4 cursor-pointer text-gray-400 hover:text-white transition duration-700 ease-in-out  border-[#9217ca] w-72 pb-2 mb-8">
+                  Contact Me
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       )}
     </>

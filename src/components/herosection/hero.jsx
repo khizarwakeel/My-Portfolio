@@ -14,7 +14,7 @@ const Hero = () => {
               We come up with creative solutions using the latest technologies
             </p>
           </div>
-          {/* <div className="h-96 z-0">
+          {/* <div className="h-96">
             <Canvas className="canvas">
               <OrbitControls enableZoom={true} />
               <ambientLight intensity={0.5} />

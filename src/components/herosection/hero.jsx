@@ -4,8 +4,8 @@ import Boxdemo from "../boxdemo";
 import { OrbitControls } from "@react-three/drei";
 const Hero = () => {
   return (
-    <div className="pt-14">
-      <div className="p-10 h-[84vh] bg-gradient-to-r from-[#4e1daa] via-[#8b11d6] to-[#9a10e2] rounded-3xl w-[80%] lg:max-w-[77rem] mx-auto">
+    <div className="pt-14 w-[90%] mx-auto">
+      <div className="p-10 lg:h-[84vh] lg:bg-gradient-to-r from-[#4e1daa] via-[#8b11d6] to-[#9a10e2] lg:shadow-lg lg:rounded-3xl">
         <div className="grid lg:grid-cols-2 gap-10">
           <div className=" text-white">
             <h1 className="text-xl md:text-5xl uppercase">Stixor</h1>

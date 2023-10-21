@@ -17,10 +17,10 @@ const data = [
     content: `The EI App, built with Flutter, is a mobile tool for emotional intelligence training.
      It boasts features like progress tracking, activity monitoring, and content from expert Brent
       Darnell. Users can enhance emotional intelligence and stay motivated.`,
-    skill1: "assets/next-js.png",
-    skill2: "assets/react.png",
-    skill3: "assets/Typescript.png",
-    skill4: "assets/tailwind.png",
+    skill1: "assets/figma.webp",
+    skill2: "assets/flutter.webp",
+    skill3: "assets/nest.webp",
+    skill4: "assets/docker.webp",
   },
   {
     imgSrc: "assets/img3.webp",
@@ -28,10 +28,10 @@ const data = [
     content: `Isekaiverse is a cross-chain web3 project built primarily for EVM-based blockchains.
      The project, among other things, includes multiple NFT marketplaces, Lootboxes with off-chain
       randomness through Oracles.`,
-    skill1: "assets/next-js.png",
-    skill2: "assets/react.png",
-    skill3: "assets/Typescript.png",
-    skill4: "assets/tailwind.png",
+    skill1: "assets/postgress.webp",
+    skill2: "assets/crypto.webp",
+    skill3: "assets/figma.webp",
+    skill4: "assets/node.webp",
   },
   {
     imgSrc: "assets/img4.webp",
@@ -39,16 +39,16 @@ const data = [
     content: `Stixor created a website and app for NK Associates, a real estate firm.
      They showcase properties with virtual tours and detailed 
     listings on this dynamic platform. We are very humble to over client they loving and beautiful`,
-    skill1: "assets/next-js.png",
-    skill2: "assets/react.png",
-    skill3: "assets/Typescript.png",
-    skill4: "assets/tailwind.png",
+    skill1: "assets/Typescript.png",
+    skill2: "assets/nest.webp",
+    skill3: "assets/tailwind.png",
+    skill4: "assets/figma.webp",
   },
 ];
 const Ourwork = () => {
   return (
     <>
-      <div className="max-w-[65rem] mx-auto pt-14 py-8">
+      <div className="w-[80%] mx-auto pt-14 py-8">
         <div className="text-white text-center">
           <h1 className="pb-5 text-5xl font-bold">Our Work</h1>
           <p className="pb-5 text-2xl font-thin">
@@ -57,13 +57,13 @@ const Ourwork = () => {
           </p>
         </div>
         {data.map((data, id) => (
-          <div className="grid grid-cols-3 pb-10" key={id}>
+          <div className="grid lg:grid-cols-3 pb-10" key={id}>
             <div className="col-span-2">
               <img src={data.imgSrc} alt="img1" className="rounded-l-3xl shadow-lg" />
             </div>
-            <div className="bg-[#010e42] rounded-r-3xl text-white px-6 shadow-lg">
-              <h3 className="pt-10 text-3xl font-bold pb-3">{data.contHead}</h3>
-              <p className="text-xl font-extralight">{data.content}</p>
+            <div className="py-5 bg-[#010e42] rounded-r-3xl text-white px-6 shadow-lg flex flex-col justify-between">
+              <h3 className=" text-3xl font-bold pb-3">{data.contHead}</h3>
+              <p className="text-xl font-thin">{data.content}</p>
               <div className="flex gap-8 pt-5">
                 <div className="bg-[#4a119f] hover:bg-[#935ae9] w-16 h-14 flex  justify-center items-center rounded-xl">
                   <img src={data.skill1} alt="next.js" className="w-[80%]" />

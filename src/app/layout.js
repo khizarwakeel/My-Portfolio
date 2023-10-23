@@ -20,9 +20,7 @@ export default function RootLayout({ children }) {
           <div className="fixed pl-5 lg:pl-0">
             <Sidebar />
           </div>
-          <div>
           {children}
-          </div>
         </div>
         <Footer />
       </body>

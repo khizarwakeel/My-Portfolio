@@ -48,7 +48,7 @@ const data = [
 const Ourwork = () => {
   return (
     <>
-      <div className="md:w-[80%] mx-auto pt-14 py-8">
+      <div className="md:w-[85%] mx-auto pt-14 py-8">
         <div className="text-white text-center">
           <h1 className="pb-5 md:text-5xl text-2xl font-bold">Our Work</h1>
           <p className="pb-5 md:text-2xl  font-thin">
@@ -58,34 +58,34 @@ const Ourwork = () => {
         </div>
         {data.map((data, id) => (
           <div className="grid lg:grid-cols-3 pb-10" key={id}>
-              <div className="col-span-2">
-                <img
-                  src={data.imgSrc}
-                  alt="img1"
-                  className="lg:rounded-l-3xl rounded-t-3xl lg:rounded-tr-none shadow-lg"
-                />
-              </div>
-              <div className="py-5 bg-[#010e42] lg:rounded-r-3xl rounded-b-3xl text-white lg:rounded-bl-none px-6 shadow-lg flex flex-col justify-between">
-                <h3 className="md:text-3xl text-xl font-bold pb-3">
-                  {data.contHead}
-                </h3>
-                <p className="md:text-xl text-sm font-thin">{data.content}</p>
-                <div className="flex gap-8 pt-5">
-                  <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
-                    <img src={data.skill1} alt="next.js" className="w-[80%]" />
-                  </div>
-                  <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
-                    <img src={data.skill2} alt="next.js" className="w-[80%]" />
-                  </div>
-                  <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
-                    <img src={data.skill3} alt="next.js" className="w-[80%]" />
-                  </div>
-                  <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
-                    <img src={data.skill4} alt="next.js" className="w-[80%]" />
-                  </div>
+            <div className="col-span-2">
+              <img
+                src={data.imgSrc}
+                alt="img1"
+                className="lg:rounded-l-3xl rounded-t-3xl lg:rounded-tr-none shadow-lg"
+              />
+            </div>
+            <div className="py-5 bg-[#010e42] lg:rounded-r-3xl rounded-b-3xl text-white lg:rounded-bl-none px-6 shadow-lg flex flex-col justify-between">
+              <h3 className="md:text-3xl text-xl font-bold pb-3">
+                {data.contHead}
+              </h3>
+              <p className="md:text-xl text-sm font-thin">{data.content}</p>
+              <div className="flex gap-8 pt-5">
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill1} alt="next.js" className="w-[80%]" />
+                </div>
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill2} alt="next.js" className="w-[80%]" />
+                </div>
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill3} alt="next.js" className="w-[80%]" />
+                </div>
+                <div className="bg-[#4a119f] hover:bg-[#935ae9] lg:w-16 lg:h-14 w-10 h-10 flex  justify-center items-center rounded-xl">
+                  <img src={data.skill4} alt="next.js" className="w-[80%]" />
                 </div>
               </div>
             </div>
+          </div>
         ))}
         <div className="text-center">
           <button className="bg-white lg:w-96 w-72 transition duration-700 ease-in-out hover:bg-[#4e1daa]  border-white border hover:text-white p-2 rounded-3xl">

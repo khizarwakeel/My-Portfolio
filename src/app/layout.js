@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         className={`${inter.className} bg-gradient-to-r from-[#7810e9] via-[#4e1daa] to-[#7810e9]`}
       >
         <div className="w-[95%] mx-auto">
-          <div className="fixed pl-5 lg:pl-0">
+          <div className="fixed pl-2">
             <Sidebar />
           </div>
           {children}

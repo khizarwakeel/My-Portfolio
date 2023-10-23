@@ -16,7 +16,7 @@ const Sidebar = () => {
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          className="w-8 h-8 text-white hover:text-fuchsia-500 cursor-pointer"
+          className="w-8 h-8 text-white hover:text-fuchsia-500 cursor-pointer outline-none"
         >
           <path
             stroke-linecap="round"
@@ -44,7 +44,7 @@ const Sidebar = () => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-8 h-8 text-white hover:text-fuchsia-400 cursor-pointer ml-4"
+              className="w-8 h-8 text-white hover:text-fuchsia-400 cursor-pointer ml-4 outline-none"
             >
               <path
                 stroke-linecap="round"

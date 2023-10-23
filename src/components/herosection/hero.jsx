@@ -15,14 +15,14 @@ const Hero = () => {
               We come up with creative solutions using the latest technologies
             </p>
           </div>
-          <div className="h-96">
+          {/* <div className="h-96">
             <Canvas>
               <OrbitControls enableZoom={true} />
               <ambientLight intensity={0.5} />
               <directionalLight position={[0, 0, 0]} intensity={1} />
               <Model />
             </Canvas>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

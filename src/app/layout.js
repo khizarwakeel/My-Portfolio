@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
           <div className="fixed pl-2">
             <Sidebar />
           </div>
-          {children}
         </div>
+        {children}
         <Footer />
       </body>
     </html>

@@ -18,8 +18,8 @@ export default function RootLayout({ children }) {
         className={`${inter.className} cursorDesign bg-gradient-to-r from-[#7810e9] via-[#4e1daa] to-[#7810e9]`}
       >
         <div className="w-[95%] mx-auto">
+          <AnimatedCursor />
           <div className="fixed pl-2">
-            <AnimatedCursor />
             <Sidebar />
           </div>
           {children}

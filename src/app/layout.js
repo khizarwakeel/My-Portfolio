@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       >
         <div className="w-[95%] mx-auto">
           <AnimatedCursor />
-          <div className="fixed pl-2">
+          <div className="sticky pl-2">
             <Sidebar />
           </div>
         </div>

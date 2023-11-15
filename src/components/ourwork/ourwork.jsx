@@ -50,7 +50,7 @@ const Ourwork = () => {
     <>
       <div className="md:w-[85%] mx-auto pt-14 py-8">
         <div className="text-white text-center">
-          <h1 className="pb-5 md:text-5xl text-2xl font-bold">Our Work</h1>
+          <h1 className="pb-5 md:text-5xl text-2xl font-bold">My Work</h1>
           <p className="pb-5 md:text-2xl  font-thin">
             How well we is determined not by how well we say things, but how
             well we are understood.

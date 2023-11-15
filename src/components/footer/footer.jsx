@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="lg:flex justify-between lg:px-10">
               <div className="lg:flex items-center gap-9">
                 <div className="flex justify-center">
-                  <img src="/assets/stixor.webp" alt="stixor" />
+                  <img src="/assets/stixor.webp" alt="Khizar Wakeel" />
                 </div>
                 <ul className="text-white pt-5">
                   <li className="flex items-center gap-2 pb-4 justify-center lg:justify-normal">
@@ -27,7 +27,7 @@ const Footer = () => {
                         />
                       </svg>
                     </div>
-                    <p>Email: info@stixor.com</p>
+                    <p>Email: khizarwakeel@gmail.com</p>
                   </li>
                   <li className="flex items-center gap-2 pb-4 justify-center lg:justify-normal">
                     <div>
@@ -46,7 +46,7 @@ const Footer = () => {
                         />
                       </svg>
                     </div>
-                    <p>Phone: info@stixor.com</p>
+                    <p>Phone: 0316-1314935</p>
                   </li>
                   <li className="flex items-center gap-2 pb-4 justify-center lg:justify-normal">
                     <div>
@@ -70,7 +70,7 @@ const Footer = () => {
                         />
                       </svg>
                     </div>
-                    <p>Locate US: Karachi, London</p>
+                    <p>Locate Me: Karachi, Hyderabad</p>
                   </li>
                 </ul>
               </div>
@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex justify-center py-2 bg-[#2d2d2d] text-white font-extralight text-xs">
-            <p>© Stixor Technologies, All Right Reserved.</p>
+            <p>© Khizar Wakeel, All Right Reserved.</p>
           </div>
         </div>
       </footer>

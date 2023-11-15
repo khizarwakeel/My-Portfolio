@@ -11,10 +11,10 @@ const Hero = () => {
             <div className=" text-white">
               <div className="cursorDesign">
               <h1 className="md:text-5xl text-3xl uppercase">Khizar Wakeel</h1>
-              <h1 className=" pt-5 text-[#3a152f] text-xl uppercase">Front-End Developer</h1>
+              <h1 className=" pt-5 text-gray-300 text-xl uppercase">Front-End Developer</h1>
               </div>
-              <p className="md:text-xl text-lg pt-5 lowercase font-thin">
-                We come up with creative solutions using the latest technologies
+              <p className="md:text-xl text-lg pt-5 font-thin">
+                I come up with creative solutions using the latest technologies
               </p>
             </div>
             <div className="-z-50 lg:z-50">

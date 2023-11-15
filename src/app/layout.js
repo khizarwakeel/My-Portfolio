@@ -7,7 +7,7 @@ import AnimatedCursor from "@/components/animatedCursor/animatedCursor";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Stixor Technologies",
+  title: "Khizar Wakeel",
   description: "Developed by Khizar Wakeel",
 };
 
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       >
         <div className="w-[95%] mx-auto">
           <AnimatedCursor />
-          <div className="sticky pl-2">
+          <div className="fixed pl-2">
             <Sidebar />
           </div>
         </div>

@@ -1,11 +1,10 @@
-
 const Index = () => {
   return (
-    <div className="flex flex-col gap-5 justify-center items-center h-screen text-4xl">
-      Comming Soon!
-    <h2 className="text-xl">Made by Khizar Wakeel</h2>
-    </div>
-  )
-}
+    <section className="flex flex-col gap-5 justify-center items-center h-screen text-4xl">
+      <h1>Comming Soon!</h1>
+      <h3 className="text-xl">Made by Khizar Wakeel</h3>
+    </section>
+  );
+};
 
-export default Index
+export default Index;
